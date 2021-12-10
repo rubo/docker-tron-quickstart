@@ -6,7 +6,7 @@ bash pre-approve.sh
 
 nohup redis-server > /dev/null 2>&1 &
 
-(cd FullNode && nohup java -jar FullNode.jar -c fullnode.conf --witness >/dev/null 2>&1 &)
+(cd FullNode && nohup java -jar FullNode.jar -c private_net_config.conf -w >/dev/null 2>&1 &)
 
 # run eventron
 (cd eventron && SECRET=TNSpckEZhGfZ4ryidHG2fYWMARLpZ6U139 \

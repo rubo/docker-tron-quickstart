@@ -1,11 +1,11 @@
-const TronWeb = require('tronweb')
-const network = require('../config').network
+const TronWeb = require('tronweb');
+const network = require('../config').network;
 
-let instance
+let instance;
 
 module.exports = function () {
   if (!instance) {
-    instance = new TronWeb(network)
+    instance = new TronWeb(network);
   }
-  return instance
-}
+  return instance;
+};
