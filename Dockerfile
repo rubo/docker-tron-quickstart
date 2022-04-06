@@ -7,7 +7,7 @@ RUN apt update \
   && apt install -y openjdk-8-jre-headless --no-install-recommends
 
 # Install Node.js
-RUN NODE_VERSION=16.13.1 && ARCH=x64 \
+RUN NODE_VERSION=16.14.2 && ARCH=x64 \
   && set -ex \
   && apt install -y ca-certificates curl dirmngr gnupg libatomic1 wget xz-utils --no-install-recommends \
   && for key in \

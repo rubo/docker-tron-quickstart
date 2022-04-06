@@ -300,6 +300,11 @@ and look for `codeVersion`.
 
 _Notice that deprecated version will stay here in the history but will be removed from the Docker Hub._
 
+#### 3.1.0
+
+- Update FullNode to v4.4.4 (Plotinus)
+- Update packages
+
 #### 3.0.0
 
 - Update FullNode to v4.4.1 (Protagoras)
